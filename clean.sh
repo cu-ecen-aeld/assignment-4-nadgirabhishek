@@ -1,4 +1,4 @@
-#!/bin/sh
-set -e
 cd buildroot
+make clean
 make distclean
+echo "Clean Finished!"
